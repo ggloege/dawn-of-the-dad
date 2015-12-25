@@ -1,0 +1,77 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: #000;
+}
+/*.start {*/
+/*    margin: auto;*/
+/*}*/
+
+.start {
+    margin: 100px auto;
+    width: 200px;
+    background-color: red;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    /*display: none;*/
+}
+
+#game-board {
+    margin: 50px auto;
+    padding: 10px;
+    background: #fff;
+    font-size: 1.5em;
+    display: none;
+    border-radius: 15px;
+}
+
+.big-head {
+    font-family: 'Freckle Face', cursive;
+    font-size: 5em;
+    color: red;
+    text-align: center;
+}
+
+#message, #choices, #responses {
+    /*display: none;*/
+    min-height: 100px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.choose-me {
+    position: relative;
+    margin: 5px 0;
+    width: 100%;
+}
+
+.chosen {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.show-me {
+    visibility: visible;
+}
+
+#next {
+    position: relative;
+    display: none;
+    margin: 10px auto;
+}
+
+#start-over {
+    font-size: 0.75em;
+    color: gray;
+}
+
+#start-toggle {
+    text-align: center;
+    color: white;
+    font-size: 3em;
+}
